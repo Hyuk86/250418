@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import datetime
-import scipy
+#import scipy
 import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -26,7 +26,7 @@ else:
     plt.rc("font", family="NanumGothic")
 
 fe = fm.FontEntry(
-    fname=r"C:\Windows\Fonts\굴림 보통.ttf",  # ttf 파일이 저장되어 있는 경로
+    fname=r"/usr/share/fonts/truetype/nanum/NanumGothic.ttf",  # ttf 파일이 저장되어 있는 경로
     name="NanumGothic",
 )  # 원하는 폰트 설정
 fm.fontManager.ttflist.insert(0, fe)  # Matplotlib에 폰트 추가

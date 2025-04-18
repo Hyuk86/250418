@@ -1,4 +1,3 @@
-python
 streamlit
 scikit-learn
 scipy

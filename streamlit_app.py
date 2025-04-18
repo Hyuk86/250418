@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import datetime
-#import scipy
+import scipy
 import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
